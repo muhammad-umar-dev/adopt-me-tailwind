@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   important: true,
-  content: ["./src/**/*.{html,js,ts,jsx,tsx}", "./src/components/**/*.{html,js,ts,jsx,tsx}", "./src/pages/**/*.{html,js,ts,jsx,tsx}", "./src/dist/**/*.{html,js,ts,jsx,tsx}",],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     fontFamily: {
       body: ["Segoe UI", "Tahoma", "Geneva", "Verdana", "sans-serif"],
