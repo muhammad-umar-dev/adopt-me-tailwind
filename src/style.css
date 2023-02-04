@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-@import "./dist/output.css";
 @tailwind utilities;
 
 @layer base {
